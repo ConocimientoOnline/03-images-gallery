@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galería de imágenes</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src='js/script.js'></script>
+	 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="content-img-grande01" id='content-img-grande01' onclick="quitar_imagen_grande_01();">
+		<img src="img/pho01.jpg">
+	</div>
+	<div class="content-img-grande02" id='content-img-grande02' onclick="quitar_imagen_grande_02();">
+		<img src="img/pho04_.jpg">
+	</div>
+	<div class="content-img-grande03" id='content-img-grande03' onclick="quitar_imagen_grande_03();">
+		<img src="img/pho03.jpg">
+	</div>
+	<div class="titulo">
+		<h1>Galería de imágenes</h1>
+	</div>
+	<div class="content-bd">
+		<div class="content-img" id='ci-1'>
+			<div class="tit-img">Man and The Mountain</div>
+			<div class="img" onmouseover="mostrar_tapa_img1();" onmouseout="ocultar_tapa_img1();">
+				<div class="tapa-img" id='tapa'>
+					<h2>Man and Mountain</h2>
+					<p>Autor-X</p>
+					<img src="img/click01.png" onclick="mostrar_imagen_grande_01();">
+				</div>
+				<img src="img/pho01.jpg">
+			</div>
+			<div class="autor-img">Autor-X</div>
+		</div>
+		<div class="content-img" id='ci-2'>
+			<div class="tit-img">Man and The Mountain</div>
+			<div class="img" onmouseover="mostrar_tapa_img2();" onmouseout="ocultar_tapa_img2();">
+				<div class="tapa-img" id='tapa1'>
+					<h2>Man and Mountain</h2>
+					<p>Autor-X</p>
+					<img src="img/click01.png" onclick="mostrar_imagen_grande_02();">
+				</div>
+				<img src="img/pho04.jpg">
+			</div>
+			<div class="autor-img">Autor-X</div>
+		</div>
+		<div class="content-img" id='ci-3'>
+			<div class="tit-img">Man and The Mountain</div>
+			<div class="img" onmouseover="mostrar_tapa_img3();" onmouseout="ocultar_tapa_img3();">
+				<div class="tapa-img" id='tapa2'>
+					<h2>Man and Mountain</h2>
+					<p>Autor-X</p>
+					<img src="img/click01.png" onclick="mostrar_imagen_grande_03();">
+				</div>
+				<img src="img/pho03.jpg">
+			</div>
+			<div class="autor-img">Autor-X</div>
+		</div>
+	</div>
+</body>
+</html>
